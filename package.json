@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "katex": "^0.10.0-rc.1",
+    "mavon-editor": "^2.6.17",
     "vue": "^2.5.17",
-    "vue-router": "^3.0.1",
-    "vue-katex": "^0.1.2"
+    "vue-katex": "^0.1.2",
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
