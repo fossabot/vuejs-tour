@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/editor">Editor</router-link> |
-      <router-link to="/katex">Katex</router-link> |
-      <router-link to="/table">Table</router-link> 
+      <router-link to="/">Home</router-link>|
+      <router-link to="/editor">Editor</router-link>|
+      <router-link to="/katex">Katex</router-link>|
+      <router-link to="/table">Table</router-link>|
+      <router-link to="/file">File</router-link>
     </div>
     <router-view/>
   </div>

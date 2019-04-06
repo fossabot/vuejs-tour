@@ -25,12 +25,7 @@ export default {
         columnSorting: true,
         dropdownMenu: true,
         debug: true,
-        filters: true,
-        copyPaste: {
-          columnsLimit: 25,
-          rowsLimit: 50,
-          pasteMode: "shift_down"
-        }
+        filters: true
       }
     };
   },
