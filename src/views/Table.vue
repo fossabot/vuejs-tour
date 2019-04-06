@@ -1,12 +1,13 @@
 <template>
-  <div class="table-container">
-    <hot-table :settings="settings"></hot-table>
+  <div class="page-container">
+    <hot-table :settings="settings" style="left:36%;"></hot-table>
   </div>
 </template>
 <script>
 import { HotTable } from "@handsontable-pro/vue";
 import "handsontable-pro/dist/handsontable.full.min.js";
 import "handsontable-pro/languages/zh-CN.js";
+import "handsontable-pro/dist/handsontable.full.min.css";
 
 export default {
   name: "HandsonTable",
@@ -14,32 +15,28 @@ export default {
     return {
       settings: {
         data: [
-          ["", "Ford", "Volvo", "Toyota", "Honda"],
-          ["2016", 10, 11, 12, 13],
-          ["2017", 20, 11, 14, 13],
-          ["2018", 30, 15, 12, 13]
+          ["-", "Ford", "Volvo", "Toyota", "Honda"],
+          ["2017", 10, 11, 12, 13],
+          ["2018", 20, 11, 14, 13],
+          ["2019", 30, 15, 12, 13]
         ],
         colHeaders: true,
         rowHeaders: true,
         contextMenu: true,
         columnSorting: true,
-        dropdownMenu: true,
-        debug: true,
-        filters: true
+        dropdownMenu: true
       }
     };
   },
   components: {
     HotTable
-  },
-  method() {}
+  }
 };
 </script>
-<style scoped>
-@import "../../node_modules/handsontable-pro/dist/handsontable.full.min.css";
-
-.table-container {
-  margin-top: 6px;
+<style scoped="sass">
+.page-container {
+  box-sizing: border-box;
+  margin: 8px 8px;
   text-align: center;
 }
 </style>

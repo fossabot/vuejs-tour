@@ -1,11 +1,18 @@
 # vuejs-tour
 
-This project was generated with [vue-katex](https://github.com/lucpotage/vue-katex) using [vue-cli](https://github.com/vuejs/vue-cli).
+This project was generated using [vue-cli](https://github.com/vuejs/vue-cli).
 
 ## Environment
 
 - [Node](https://nodejs.org/en)
 - [Git](https://git-scm.com)
+
+## FullStack
+
+- [KaTeX](https://github.com/KaTeX/KaTeX)
+- [Mavon Editor](https://github.com/hinesboy/mavonEditor)
+- [HandsonTable](https://github.com/handsontable/handsontable)
+- [PDFVuer](https://github.com/arkokoley/pdfvuer)
 
 ## Installation
 

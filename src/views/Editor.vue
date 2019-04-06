@@ -1,5 +1,5 @@
 <template>
-  <div class="mavon-container">
+  <div class="page-container">
     <mavon-editor v-model="content" style="height: 100%" @upload="uploadImage" @change="changeMavon" />
   </div>
 </template>
@@ -25,8 +25,9 @@ export default {
 };
 </script>
 <style scoped>
-.mavon-container {
-  margin-top: 12px;
+.page-container {
+  box-sizing: border-box;
+  margin: 8px 8px;
 }
 
 #editor {

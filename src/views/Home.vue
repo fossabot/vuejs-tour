@@ -1,18 +1,16 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h3>Welcome to Vue App</h3>
+  <div class="page-container">
+    <h4>Welcome to Vue App</h4>
   </div>
 </template>
-
 <script>
 export default {
   name: "home"
 };
 </script>
-
-<style scoped>
-h3 {
-  margin: 40px 0 0;
+<style scoped="sass">
+.page-container {
+  margin: 8px 8px;
+  text-align: center;
 }
 </style>

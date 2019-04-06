@@ -1,41 +1,15 @@
 <template>
-  <div id="pdfvuer">
-    <div id="buttons" class="ui grey three item inverted bottom fixed menu transition hidden">
-      <a class="item" @click="page > 1 ? page-- : 1">
-        <i class="left chevron icon"></i>
-        上一页
-      </a>
-      <a class="ui active item">{{page}} / {{ numPages ? numPages : '∞' }}</a>
-      <a class="item" @click="page < numPages ? page++ : 1">
-        下一页
-        <i class="right chevron icon"></i>
-      </a>
+  <div id="page-container">
+    <div id="buttons">
+      <el-button type="primary" icon="el-icon-arrow-left" @click="page > 1 ? page-- : 1">上一页</el-button>&nbsp;&nbsp;
+      <a class="ui active item">{{page}} / {{ numPages ? numPages : '∞' }}</a>&nbsp;&nbsp;
+      <el-button type="primary" @click="page < numPages ? page++ : 1">下一页<i class="el-icon-arrow-right el-icon--right"></i></el-button>
     </div>
-    <div id="buttons" class="ui grey three item inverted bottom fixed menu transition hidden">
-      <a class="item" @click="scale -= scale > 0.2 ? 0.1 : 0">
-        <i class="left chevron icon"/>
-        Zoom -
-      </a>
-      <a class="ui active item">{{ formattedZoom }} %</a>
-      <a class="item" @click="scale += scale < 2 ? 0.1 : 0">
-        Zoom +
-        <i class="right chevron icon"/>
-      </a>
-    </div>
-    <pdf
-      :src="pdfData"
-      v-for="i in numPages"
-      :key="i"
-      :id="i"
-      :page="i"
-      :scale.sync="scale"
-      style="width:100%;margin:20px auto;"
-    >
-      <template slot="loading">loading content here...</template>
+    <pdf :src="pdfData" v-for="i in numPages" :key="i" :id="i" :page="i" :scale.sync="scale" style="width:100%;margin:20px auto;">
+      <template slot="loading">loading</template>
     </pdf>
   </div>
 </template>
-
 <script>
 import pdfVuer from "pdfvuer";
 import $ from "jquery";
@@ -127,13 +101,16 @@ export default {
   }
 };
 </script>
+<style scoped="sass">
+.page-container {
+  box-sizing: border-box;
+  margin: 8px 8px;
+  text-align: center;
+}
 
-<style scoped>
 #buttons {
   margin-left: 0 !important;
   margin-right: 0 !important;
-}
-.content {
-  padding: 16px;
+  text-align: center;
 }
 </style>
