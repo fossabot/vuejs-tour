@@ -61,7 +61,7 @@
     &::before,
     &::after {
       display: table;
-      content: "";
+      content: '';
     }
 
     &::after {
@@ -76,7 +76,7 @@
     padding: 0 20px;
 
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       top: calc(50% - 8px);
       width: 1px;
@@ -116,7 +116,7 @@
       }
 
       &.active::after {
-        content: "";
+        content: '';
         display: inline-block;
         position: absolute;
         bottom: 0;
@@ -171,25 +171,34 @@
         <h1>
           <router-link to="/">
             <slot>
-              <img src="../assets/logo.png" width="64" height="64" class="nav-logo">
+              <img
+                src="../assets/logo.png"
+                width="64"
+                height="64"
+                class="nav-logo"
+              />
             </slot>
           </router-link>
         </h1>
         <ul class="nav">
           <li class="nav-item">
-            <router-link active-class="active" to="/editor" exact>Editor
+            <router-link active-class="active" to="/editor" exact
+              >Editor
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link active-class="active" to="/katex" exact>Katex
+            <router-link active-class="active" to="/katex" exact
+              >Katex
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link active-class="active" to="/table" exact>Table
+            <router-link active-class="active" to="/table" exact
+              >Table
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link active-class="active" to="/file" exact>File
+            <router-link active-class="active" to="/file" exact
+              >File
             </router-link>
           </li>
         </ul>
@@ -199,6 +208,6 @@
 </template>
 <script>
 export default {
-  name: "Header"
-};
+  name: 'Header'
+}
 </script>

@@ -31,6 +31,11 @@ This project was generated using [vue-cli](https://github.com/vuejs/vue-cli).
 
 - yarn lint
 
+## VS Code Extensions
+
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
 ## License
 
 - vuejs-tour is released under an [MIT](https://opensource.org/licenses/MIT) license. See [LICENSE](https://github.com/watonyweng/vuejs-tour/tree/master/LICENSE) for more information.

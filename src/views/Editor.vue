@@ -1,19 +1,24 @@
 <template>
   <div class="page-container">
-    <mavon-editor v-model="content" style="height: 100%" @upload="uploadImage" @change="changeMavon" />
+    <mavon-editor
+      v-model="content"
+      style="height: 100%"
+      @upload="uploadImage"
+      @change="changeMavon"
+    />
   </div>
 </template>
 <script>
-import { mavonEditor } from "mavon-editor";
-import "mavon-editor/dist/css/index.css";
+import { mavonEditor } from 'mavon-editor'
+import 'mavon-editor/dist/css/index.css'
 
 export default {
-  name: "Editor",
+  name: 'Editor',
   data() {
     return {
-      content: "",
+      content: '',
       configs: {}
-    };
+    }
   },
   components: {
     mavonEditor
@@ -22,7 +27,7 @@ export default {
     changeMavon() {},
     uploadImage() {}
   }
-};
+}
 </script>
 <style scoped>
 .page-container {
