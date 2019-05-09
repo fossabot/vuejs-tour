@@ -36,6 +36,17 @@ This project was generated using [vue-cli](https://github.com/vuejs/vue-cli).
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
+<!-- GITCONTRIBUTOR_START -->
+
+## Contributors
+
+|[<img src="https://avatars0.githubusercontent.com/u/2574065?v=4" width="100px;"/><br/><sub><b>watonyweng</b></sub>](https://github.com/watonyweng)<br/>|
+| :---: |
+
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Thu May 09 2019 20:45:35 GMT+0800`.
+
+<!-- GITCONTRIBUTOR_END -->
+
 ## License
 
 - vuejs-tour is released under an [MIT](https://opensource.org/licenses/MIT) license. See [LICENSE](https://github.com/watonyweng/vuejs-tour/tree/master/LICENSE) for more information.
