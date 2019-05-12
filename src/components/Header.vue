@@ -1,3 +1,46 @@
+<template>
+  <div class="header-wrapper">
+    <header class="header">
+      <div class="container">
+        <h1>
+          <router-link to="/">
+            <slot>
+              <img
+                src="../assets/logo.png"
+                width="64"
+                height="64"
+                class="nav-logo"
+              />
+            </slot>
+          </router-link>
+        </h1>
+        <ul class="nav">
+          <li class="nav-item">
+            <router-link active-class="active" to="/editor" exact
+              >Editor
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link active-class="active" to="/katex" exact
+              >Katex
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link active-class="active" to="/file" exact
+              >File
+            </router-link>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </div>
+</template>
+<script>
+export default {
+  name: 'Header'
+}
+</script>
+
 <style lang="scss" scoped>
 .header-wrapper {
   height: 80px;
@@ -164,50 +207,3 @@
   }
 }
 </style>
-<template>
-  <div class="header-wrapper">
-    <header class="header">
-      <div class="container">
-        <h1>
-          <router-link to="/">
-            <slot>
-              <img
-                src="../assets/logo.png"
-                width="64"
-                height="64"
-                class="nav-logo"
-              />
-            </slot>
-          </router-link>
-        </h1>
-        <ul class="nav">
-          <li class="nav-item">
-            <router-link active-class="active" to="/editor" exact
-              >Editor
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link active-class="active" to="/katex" exact
-              >Katex
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link active-class="active" to="/table" exact
-              >Table
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link active-class="active" to="/file" exact
-              >File
-            </router-link>
-          </li>
-        </ul>
-      </div>
-    </header>
-  </div>
-</template>
-<script>
-export default {
-  name: 'Header'
-}
-</script>

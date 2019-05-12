@@ -1,10 +1,10 @@
 <template>
-  <div id="app">
-    <app-header></app-header>
-    <div class="main-container">
+  <el-container id="app">
+    <el-header><app-header></app-header></el-header>
+    <el-main>
       <router-view></router-view>
-    </div>
-  </div>
+    </el-main>
+  </el-container>
 </template>
 <script>
 import AppHeader from './components/Header'
@@ -15,11 +15,4 @@ export default {
   }
 }
 </script>
-<style scoped="sass">
-.main-container {
-  padding: 80px 0 80px;
-  width: 100%;
-  box-sizing: border-box;
-  min-height: 100%;
-}
-</style>
+<style scoped="css"></style>
