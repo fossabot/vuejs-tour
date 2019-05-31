@@ -14,14 +14,14 @@ import 'mavon-editor/dist/css/index.css'
 
 export default {
   name: 'Editor',
+  components: {
+    mavonEditor
+  },
   data() {
     return {
       content: '',
       configs: {}
     }
-  },
-  components: {
-    mavonEditor
   },
   methods: {
     changeMavon() {},
@@ -29,7 +29,7 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style lang="scss" scoped>
 .page-container {
   box-sizing: border-box;
   margin: 8px 8px;

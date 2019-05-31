@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import Home from './views/Home'
 import Katex from './views/Katex'
 import Editor from './views/Editor'
-import Table from './views/Table'
 import File from './views/File'
 
 Vue.use(Router)
@@ -24,11 +23,6 @@ export default new Router({
       path: '/editor',
       name: 'Editor',
       component: Editor
-    },
-    {
-      path: '/table',
-      name: 'Table',
-      component: Table
     },
     {
       path: '/file',

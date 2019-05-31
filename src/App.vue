@@ -1,8 +1,10 @@
 <template>
   <el-container id="app">
-    <el-header><app-header></app-header></el-header>
+    <el-header>
+      <app-header/>
+    </el-header>
     <el-main>
-      <router-view></router-view>
+      <router-view/>
     </el-main>
   </el-container>
 </template>
@@ -15,4 +17,5 @@ export default {
   }
 }
 </script>
-<style scoped="css"></style>
+<style scoped="sass">
+</style>

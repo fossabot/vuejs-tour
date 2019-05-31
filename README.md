@@ -11,8 +11,6 @@ This project was generated using [vue-cli](https://github.com/vuejs/vue-cli).
 
 - [KaTeX](https://github.com/KaTeX/KaTeX)
 - [Mavon Editor](https://github.com/hinesboy/mavonEditor)
-- [HandsonTable](https://github.com/handsontable/handsontable)
-- [PDFVuer](https://github.com/arkokoley/pdfvuer)
 
 ## Installation
 

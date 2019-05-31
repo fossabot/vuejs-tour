@@ -1,6 +1,8 @@
 <template>
   <div class="page-container">
-    <hot-table :settings="settings" style="left:36%;"></hot-table>
+    <hot-table
+      :settings="settings"
+      style="left:36%;"/>
   </div>
 </template>
 <script>
@@ -10,7 +12,10 @@ import 'handsontable-pro/languages/zh-CN.js'
 import 'handsontable-pro/dist/handsontable.full.min.css'
 
 export default {
-  name: 'HandsonTable',
+  name: 'Table',
+  components: {
+    HotTable
+  },
   data: function() {
     return {
       settings: {
@@ -27,13 +32,10 @@ export default {
         dropdownMenu: true
       }
     }
-  },
-  components: {
-    HotTable
   }
 }
 </script>
-<style scoped="sass">
+<style lang="scss" scoped>
 .page-container {
   box-sizing: border-box;
   margin: 8px 8px;
