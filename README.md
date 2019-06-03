@@ -1,4 +1,6 @@
-# vuejs-tour
+# vuejs-tour 
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwatonyweng%2Fvuejs-tour.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwatonyweng%2Fvuejs-tour?ref=badge_shield)
 
 This project was generated using [vue-cli](https://github.com/vuejs/vue-cli).
 
@@ -48,5 +50,3 @@ This project follows the git-contributor [spec](https://github.com/xudafeng/git-
 ## License
 
 - vuejs-tour is released under an [MIT](https://opensource.org/licenses/MIT) license. See [LICENSE](https://github.com/watonyweng/vuejs-tour/tree/master/LICENSE) for more information.
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwatonyweng%2Fvuejs-tour.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwatonyweng%2Fvuejs-tour?ref=badge_shield)
