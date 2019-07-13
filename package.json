@@ -1,6 +1,6 @@
 {
   "name": "vuejs-tour",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,29 +10,30 @@
   },
   "dependencies": {
     "element-ui": "^2.4.5",
-    "katex": "^0.10.1",
-    "mavon-editor": "^2.7.",
+    "katex": "^0.10.2",
+    "mavon-editor": "^2.7.5",
     "vue": "^2.6.10",
     "vue-katex": "^0.2.0",
-    "vue-router": "^3.0.1"
+    "vue-pdf": "^4.0.7",
+    "vue-router": "^3.0.7"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.5.0",
-    "@vue/cli-plugin-eslint": "^3.5.0",
-    "@vue/cli-service": "^3.5.3",
+    "@vue/cli-plugin-babel": "^3.9.2",
+    "@vue/cli-plugin-eslint": "^3.9.2",
+    "@vue/cli-service": "^3.9.2",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-runtime": "^6.26.0",
-    "css-loader": "^2.1.1",
+    "css-loader": "^3.0.0",
     "git-contributor": "^1.0.10",
-    "lint-staged": "^7.2.2",
-    "node-sass": "^4.11.0",
-    "pdfjs-dist": "^2.0.943",
+    "lint-staged": "^9.2.0",
+    "node-sass": "^4.12.0",
+    "pdfjs-dist": "^2.1.266",
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-loader": "^15.7.0",
-    "vue-svg-loader": "^0.5.0",
+    "vue-svg-loader": "^0.12.0",
     "vue-template-compiler": "^2.6.10",
-    "webpack": "^4.32.2"
+    "webpack": "^4.35.3"
   },
   "eslintConfig": {
     "root": true,

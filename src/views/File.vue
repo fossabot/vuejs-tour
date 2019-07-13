@@ -1,10 +1,14 @@
 <template>
   <div class="page-container"/>
 </template>
+
 <script>
+import pdf from 'vue-pdf'
 export default {
   name: 'File',
-  components: {},
+  components: {
+    pdf
+  },
   data() {
     return {}
   }
