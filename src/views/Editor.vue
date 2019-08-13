@@ -1,30 +1,35 @@
 <template>
   <div class="page-container">
-    <mavon-editor v-model="content" style="height: 100%" @upload="uploadImage" @change="changeMavon" />
+    <mavon-editor
+      v-model="content"
+      style="height: 100%"
+      @upload="uploadImage"
+      @change="changeMavon"
+    />
   </div>
 </template>
 <script>
-import { mavonEditor } from "mavon-editor";
-import "mavon-editor/dist/css/index.css";
+import { mavonEditor } from 'mavon-editor'
+import 'mavon-editor/dist/css/index.css'
 
 export default {
-  name: "Editor",
-  data() {
-    return {
-      content: "",
-      configs: {}
-    };
-  },
+  name: 'Editor',
   components: {
     mavonEditor
+  },
+  data() {
+    return {
+      content: '',
+      configs: {}
+    }
   },
   methods: {
     changeMavon() {},
     uploadImage() {}
   }
-};
+}
 </script>
-<style scoped>
+<style lang="scss" scoped>
 .page-container {
   box-sizing: border-box;
   margin: 8px 8px;

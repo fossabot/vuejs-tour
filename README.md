@@ -1,6 +1,6 @@
-# vuejs-tour
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwatonyweng%2Fvuejs-tour.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwatonyweng%2Fvuejs-tour?ref=badge_shield)
+# vuejs-tour 
 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwatonyweng%2Fvuejs-tour.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwatonyweng%2Fvuejs-tour?ref=badge_shield)
 
 This project was generated using [vue-cli](https://github.com/vuejs/vue-cli).
 
@@ -13,12 +13,10 @@ This project was generated using [vue-cli](https://github.com/vuejs/vue-cli).
 
 - [KaTeX](https://github.com/KaTeX/KaTeX)
 - [Mavon Editor](https://github.com/hinesboy/mavonEditor)
-- [HandsonTable](https://github.com/handsontable/handsontable)
-- [PDFVuer](https://github.com/arkokoley/pdfvuer)
 
 ## Installation
 
-- git clone https://github.com/watonyweng/vuejs-tour.git
+- git clone <https://github.com/watonyweng/vuejs-tour.git>
 - cd vuejs-tour && yarn
 
 ## Serve
@@ -32,6 +30,22 @@ This project was generated using [vue-cli](https://github.com/vuejs/vue-cli).
 ## Lint
 
 - yarn lint
+
+## VS Code Extensions
+
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+<!-- GITCONTRIBUTOR_START -->
+
+## Contributors
+
+|[<img src="https://avatars0.githubusercontent.com/u/2574065?v=4" width="100px;"/><br/><sub><b>watonyweng</b></sub>](https://github.com/watonyweng)<br/>|
+| :---: |
+
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Thu May 09 2019 20:45:35 GMT+0800`.
+
+<!-- GITCONTRIBUTOR_END -->
 
 ## License
 

@@ -1,14 +1,14 @@
 <template>
   <div class="page-container">
-    <h4>Welcome to Vue App</h4>
+    <h5>Welcome to Vue App</h5>
   </div>
 </template>
 <script>
 export default {
-  name: "home"
-};
+  name: 'Home'
+}
 </script>
-<style scoped="sass">
+<style lang="scss" scoped>
 .page-container {
   margin: 8px 8px;
   text-align: center;
